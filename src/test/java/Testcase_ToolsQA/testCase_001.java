@@ -59,7 +59,7 @@ public class testCase_001 extends BaseClass_ToolsQA {
 	public void sexButtonValidation() {
 		initElement();
 		obj.sexButton();
-		log.info("Sendbox click successfully");
+		log.info("Sendbox click successully");
 	}
 	@Test(priority=7)
     public void setCurrentDate() {
