@@ -20,7 +20,7 @@ public class testCase_001 extends BaseClass_ToolsQA {
 	@Test(priority = 1)
 	public void launchUrl() {
 		driver.get(url);
-		log.info("Url Launched Successfully");
+		log.info("Url Launched Successfully  ");
 	}
 	
 	@Test(priority=2)
