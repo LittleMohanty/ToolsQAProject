@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" parallel="classes" name="Failed suite [Automation Demo]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="Utilities.AutomationReport"/>
+    <listener class-name="Utilities.RetryLogic2"/>
+  </listeners>
+  <test thread-count="1" parallel="classes" name="ToolsQa Test(failed)">
+    <classes>
+      <class name="Testcase_ToolsQA.testCase_001">
+        <methods>
+          <include name="tearDown"/>
+          <include name="LinkTestIspresentValidation"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- Testcase_ToolsQA.testCase_001 -->
+    </classes>
+  </test> <!-- ToolsQa Test(failed) -->
+</suite> <!-- Failed suite [Automation Demo] -->

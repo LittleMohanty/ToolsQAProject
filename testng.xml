@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Automation Demo" thread-count="1" parallel="classes">
+	<listeners>
+		<listener class-name="Utilities.AutomationReport" />
+		<listener class-name="Utilities.RetryLogic2"/>
+	</listeners>
+	<test name="ToolsQa Test">
+		<classes>
+			<class name="Testcase_ToolsQA.testCase_001" />
+			
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

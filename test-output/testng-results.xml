@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="11" passed="7" failed="1" skipped="3">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-03-03T17:50:27Z" name="Automation Demo" finished-at="2020-03-03T17:50:47Z" duration-ms="20019">
+    <groups>
+    </groups>
+    <test started-at="2020-03-03T17:50:27Z" name="ToolsQa Test" finished-at="2020-03-03T17:50:47Z" duration-ms="20019">
+      <class name="Testcase_ToolsQA.testCase_001">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Testcase_ToolsQA.testCase_001@7fc229ab]" started-at="2020-03-03T17:50:28Z" name="setup" finished-at="2020-03-03T17:50:38Z" duration-ms="10623" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="launchUrl()[pri:1, instance:Testcase_ToolsQA.testCase_001@7fc229ab]" started-at="2020-03-03T17:50:38Z" name="launchUrl" finished-at="2020-03-03T17:50:41Z" duration-ms="2845" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchUrl -->
+        <test-method signature="partialLinkTestIspresentValidation()[pri:2, instance:Testcase_ToolsQA.testCase_001@7fc229ab]" started-at="2020-03-03T17:50:41Z" name="partialLinkTestIspresentValidation" finished-at="2020-03-03T17:50:42Z" duration-ms="1196" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- partialLinkTestIspresentValidation -->
+        <test-method signature="LinkTestIspresentValidation()[pri:3, instance:Testcase_ToolsQA.testCase_001@7fc229ab]" started-at="2020-03-03T17:50:42Z" name="LinkTestIspresentValidation" finished-at="2020-03-03T17:50:43Z" duration-ms="459" status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+Link test is not present  expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+Link test is not present  expected [false] but found [true]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+at Testcase_ToolsQA.testCase_001.LinkTestIspresentValidation(testCase_001.java:39)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:835)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LinkTestIspresentValidation -->
+        <test-method signature="LinkTestIspresentValidation()[pri:3, instance:Testcase_ToolsQA.testCase_001@7fc229ab]" started-at="2020-03-03T17:50:43Z" name="LinkTestIspresentValidation" finished-at="2020-03-03T17:50:43Z" duration-ms="157" status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+Link test is not present  expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+Link test is not present  expected [false] but found [true]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+at Testcase_ToolsQA.testCase_001.LinkTestIspresentValidation(testCase_001.java:39)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.retryFailed(Invoker.java:839)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1010)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:835)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LinkTestIspresentValidation -->
+        <test-method signature="LinkTestIspresentValidation()[pri:3, instance:Testcase_ToolsQA.testCase_001@7fc229ab]" started-at="2020-03-03T17:50:43Z" name="LinkTestIspresentValidation" finished-at="2020-03-03T17:50:43Z" duration-ms="484" status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+Link test is not present  expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+Link test is not present  expected [false] but found [true]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+at Testcase_ToolsQA.testCase_001.LinkTestIspresentValidation(testCase_001.java:39)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.retryFailed(Invoker.java:839)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1010)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:835)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LinkTestIspresentValidation -->
+        <test-method signature="LinkTestIspresentValidation()[pri:3, instance:Testcase_ToolsQA.testCase_001@7fc229ab]" started-at="2020-03-03T17:50:43Z" name="LinkTestIspresentValidation" finished-at="2020-03-03T17:50:43Z" duration-ms="106" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+Link test is not present  expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+Link test is not present  expected [false] but found [true]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+at Testcase_ToolsQA.testCase_001.LinkTestIspresentValidation(testCase_001.java:39)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.retryFailed(Invoker.java:839)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1010)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:835)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LinkTestIspresentValidation -->
+        <test-method signature="userNameValidation()[pri:4, instance:Testcase_ToolsQA.testCase_001@7fc229ab]" started-at="2020-03-03T17:50:44Z" name="userNameValidation" finished-at="2020-03-03T17:50:45Z" duration-ms="708" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userNameValidation -->
+        <test-method signature="continentDropDownValidation()[pri:5, instance:Testcase_ToolsQA.testCase_001@7fc229ab]" started-at="2020-03-03T17:50:45Z" name="continentDropDownValidation" finished-at="2020-03-03T17:50:45Z" duration-ms="400" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- continentDropDownValidation -->
+        <test-method signature="sexButtonValidation()[pri:6, instance:Testcase_ToolsQA.testCase_001@7fc229ab]" started-at="2020-03-03T17:50:45Z" name="sexButtonValidation" finished-at="2020-03-03T17:50:46Z" duration-ms="169" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sexButtonValidation -->
+        <test-method signature="setCurrentDate()[pri:7, instance:Testcase_ToolsQA.testCase_001@7fc229ab]" started-at="2020-03-03T17:50:46Z" name="setCurrentDate" finished-at="2020-03-03T17:50:46Z" duration-ms="374" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setCurrentDate -->
+        <test-method signature="multipleContinentValidation()[pri:8, instance:Testcase_ToolsQA.testCase_001@7fc229ab]" started-at="2020-03-03T17:50:46Z" name="multipleContinentValidation" finished-at="2020-03-03T17:50:46Z" duration-ms="548" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- multipleContinentValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Testcase_ToolsQA.testCase_001@7fc229ab]" started-at="2020-03-03T17:50:46Z" name="tearDown" finished-at="2020-03-03T17:50:47Z" duration-ms="827" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Testcase_ToolsQA.testCase_001 -->
+    </test> <!-- ToolsQa Test -->
+  </suite> <!-- Automation Demo -->
+</testng-results>
