@@ -11,7 +11,7 @@ public class testCase_001 extends BaseClass_ToolsQA {
 	String userfirst = read.getFirstname();
 	String userLast = read.getLastname();
 	public static toolQA_PageObject obj;
-	String date ="02-03-2020";
+	String date ="02-03-2021";
 
 	public static void initElement() {
 		obj = new toolQA_PageObject(driver);
@@ -20,7 +20,7 @@ public class testCase_001 extends BaseClass_ToolsQA {
 	@Test(priority = 1)
 	public void launchUrl() {
 		driver.get(url);
-		log.info("Url Launched Successfully");
+		log.info("Url Launched Successfully  ");
 	}
 	
 	@Test(priority=2)
@@ -59,7 +59,7 @@ public class testCase_001 extends BaseClass_ToolsQA {
 	public void sexButtonValidation() {
 		initElement();
 		obj.sexButton();
-		log.info("Sendbox click successully");
+		log.info("Sendbox click successfully");
 	}
 	@Test(priority=7)
     public void setCurrentDate() {
